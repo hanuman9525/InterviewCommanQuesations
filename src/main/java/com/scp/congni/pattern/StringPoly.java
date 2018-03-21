@@ -6,6 +6,7 @@ public class StringPoly {
 		// TODO Auto-generated method stub
 		String str="abcba";
 		int flag=0;
+//Actual string polindrome logic is here
 		for(int i=0,j=str.length()-1;i<str.length()/2;i++,j--)
 			if(str.charAt(i)!=str.charAt(j))
 			{
